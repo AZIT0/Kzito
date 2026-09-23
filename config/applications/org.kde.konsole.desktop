@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kitty
+Comment=Terminal principal (Super+Enter)
+Exec=kitty
+Icon=kitty
+Type=Application
+Categories=System;TerminalEmulator;
+NoDisplay=true

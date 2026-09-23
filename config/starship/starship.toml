@@ -1,0 +1,22 @@
+# LaraCraft — Jade / Stone / Antique Gold
+format = "$directory$git_branch$git_status$character"
+
+[character]
+success_symbol = "[❯](bold #7ED3AE)"
+error_symbol = "[❯](bold #D97D7D)"
+
+[directory]
+style = "bold #7ED3AE"
+read_only_style = "bold #D97D7D"
+truncation_length = 3
+
+[git_branch]
+style = "bold #D9B36C"
+format = " [$symbol$branch]($style)"
+
+[git_status]
+style = "bold #D9B36C"
+format = "([$all_status$ahead_behind]($style) )"
+modified = "●"
+staged = "+"
+untracked = "?"
